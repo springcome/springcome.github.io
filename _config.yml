@@ -107,10 +107,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "SPRINGCOME"
+  name             : "볼빨간고구마"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "?"
-  location         : "Somewhere"
+  bio              : #
+  location         : "South Korea"
   email            :
   links:
     - label: "Email"
