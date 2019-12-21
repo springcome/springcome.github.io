@@ -9,7 +9,7 @@ tags:
   - mongodb
   - like
   - regex
-----
+---
 
 # MongoDB에서 LIKE를 사용하는 방법이다
 ```
