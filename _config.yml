@@ -109,13 +109,13 @@ analytics:
 author:
   name             : "봄이오면"
   avatar           : "/assets/images/ioi.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "-"
+  bio              : "by rudy"
   location         : "South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:fun.deviation@gmail.com
+      # url: mailto:fun.deviation@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
