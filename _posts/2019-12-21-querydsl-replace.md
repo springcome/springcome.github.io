@@ -8,7 +8,7 @@ categories:
   - Querydsl
 tags:
   - querydsl, replace
-----
+---
 
 # Replace SQL
 column_name의 값의 공백을 제거하여 'aaa'와 동일한 데이터를 조회

@@ -1,13 +1,13 @@
 ---
-title: "Edge Case: Nested and Mixed Lists"
+title: "MongoDB"
+toc: true
+toc_label: "Contents"
+toc_icon: "cog"
 categories:
-  - Edge Case
+  - mongoDB
 tags:
-  - content
-  - css
-  - edge case
-  - lists
-  - markup
+  - mongodb
+  - in
 ---
 $in
 ```
