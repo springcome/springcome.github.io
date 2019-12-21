@@ -1,13 +1,12 @@
 ---
 title: "MongoDB-LIKE 사용"
 toc: true
-toc_sticky: true
-date: 2019-12-22T00:39
+toc_label: "Contents"
+toc_icon: "cog"
 categories:
   - mongoDB
 tags:
   - mongodb, like, regex
-last_modified_at: 2019-12-22T00:39
 ----
 
 # MongoDB에서 LIKE를 사용하는 방법이다

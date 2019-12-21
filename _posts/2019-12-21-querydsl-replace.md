@@ -2,13 +2,12 @@
 layout: "post"
 title: "Querydsl, replace"
 toc: true
-toc_sticky: true
-date: 2019-12-22T00:58
+toc_label: "Contents"
+toc_icon: "cog"
 categories:
   - Querydsl
 tags:
   - querydsl, replace
-last_modified_at: 2019-12-22T00:58
 ----
 
 # Replace SQL
