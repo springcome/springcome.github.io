@@ -1,4 +1,5 @@
 ---
+layout: "post"
 title: "Querydsl, replace"
 toc: true
 toc_sticky: true
