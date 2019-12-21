@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "WHY"
 title_separator          : "-"
-subtitle                 : "?" # site tagline that appears below site title in masthead
+subtitle                 : "웹개발 관련 블로그입니다." # site tagline that appears below site title in masthead
 name                     : "springcome"
 description              : "개발 관련 블로그입니다."
 url                      : "https://springcome.github.io"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "봄이오면"
   avatar           : "/assets/images/ioi.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "일좀 하자"
+  bio              : "-"
   location         : "South Korea"
   email            :
   links:
