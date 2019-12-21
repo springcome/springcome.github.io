@@ -108,8 +108,8 @@ analytics:
 # Site Author
 author:
   name             : "봄이오면"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "뉴비 웹 개발자"
+  avatar           : "/assets/images/bio-image.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "일좀 하자"
   location         : "South Korea"
   email            :
   links:
