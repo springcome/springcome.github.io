@@ -1,5 +1,8 @@
 ---
 title: "Android, ImageView를 사용한 toggle기능 사용"
+toc: true
+toc_label: "Contents"
+toc_icon: "cog"
 categories:
   - Android
 tags:
@@ -37,11 +40,11 @@ default로 선택되는 아이템의 상태값(속이 비어있는 별)을 true�
 
 # ImageView의 onClick이벤트 처리
 ```
-    star.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(final View view) {
-            view.setActivated(!view.isActivated());
-        }
-    });
+star.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(final View view) {
+        view.setActivated(!view.isActivated());
+    }
+});
 ```
 터치 이벤트가 발생할때마다 selector의 상태값을 반대로 변경해 주도록 한다.
