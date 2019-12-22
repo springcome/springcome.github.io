@@ -12,7 +12,7 @@ tags:
 ---
 
 # MongoDB에서 LIKE를 사용하는 방법이다
-```
+```java
 String name = "aaa";
 Query query = new Query();
 query.addCriteria(Criteria.where("name").regex(name));
