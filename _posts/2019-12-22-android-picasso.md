@@ -21,7 +21,7 @@ dependencies {
 ```
 
 # 사용법
-```
+```java
 Picasso.get().load("http://i.imgur.com/DvpvklR.png").into(imageView);
 ```
 
