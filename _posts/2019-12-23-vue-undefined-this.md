@@ -44,7 +44,7 @@ bMethod를 호출하는 부분에서 오류가 발생하는 것을 확인.
 오류를 확인하기 위해 aMethod의 forEach문이 시작하기전
 console.log(this); 그리고 forEach문 안에서 console.log(this); 를 출력하도록 하였다.
 
-forEach 시작전의 this 출력 : [object Object]
+forEach 시작전의 this 출력 : [object Object] <br />
 forEach 안쪽의 this 출력 : undefined
 
 forEach 안쪽에서는 this를 읽지 못하는것안 확인.
