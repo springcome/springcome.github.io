@@ -15,8 +15,8 @@ App을 개발하다보면 통화관련 기능을 구현이 필요한 경우가 �
 <br />emulator는 AVD Manager에서 추가할수있다.
 
 emulator를 두개를 실행했다면 emulator가 전화를 받을수 있는 번호를 확인해보자.
-<img src="../assets/images/em_find_call_no_1.png">
+<img src="/assets/images/em_find_call_no_1.png">
 <br />2번에서 보이는 5554가 emulator끼리 전화를 할수 있는 번호이다.
 <br /><br />다른 emulator에서 5554 emulator에 전화를 걸어보도록 하겠다.
-<img src="../assets/images/em_find_call_no_3.png">
+<img src="/assets/images/em_find_call_no_3.png">
 <br />5554 emulator에서 발신번호를 확인할수 았다.
