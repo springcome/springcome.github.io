@@ -130,3 +130,42 @@ db.a.aggregate([
 ])
 ```
 위에서 설명했듯이 "aid"필드를 하나추가하고 ObjectId Type을 String Type으로 변경하였다.
+
+# 구현
+```java
+// $addFields
+AggregationOperation addFields = new AggregationOperation() {
+    @Override
+    public DBObject toDBObject(AggregationOperationContext aggregationOperationContext) {
+        BasicDBObject addFieldsObject = new BasicDBObject();
+        addFieldsObject.append("aid", new BasicDBObject("$toString", "$_id"));
+        return new BasicDBObject("$addFields", addFieldsObject);
+    }
+};
+
+// #lookup
+LookupOperation lookupOperation = LookupOperation.newLookup()
+    .from("b")
+    .localField("aid")
+    .foreignField("group.aid")
+    .as("bData");
+
+// Aggregation
+Aggregation agg = Aggregation.newAggregation(
+    addFields,
+    lookupOperation
+);
+
+// Result
+AggregationResults<A> results = mTemplate.aggregate(agg, "a", A.class);
+List<A> list = results.getMappedResults();
+```
+
+A.class에서 aEntity를 받을수있는 변수를 선언해줘야 한다.
+```java
+public class A {
+    private String id;
+    private String name;
+    private List<B> bData;
+}
+```
