@@ -3,13 +3,13 @@ title: "mongoDB, $lookup"
 toc: true
 toc_label: "Contents"
 toc_icon: "cog"
+date: "2019-12-26"
 categories:
   - mongoDB
 tags:
   - mongoDB
   - aggregate
   - lookup
-date:2019-12-26
 ---
 $lookup을 사용하여 join한 효과를 얻을수 있습니다.
 
