@@ -3,7 +3,6 @@ title: "mongoDB, $lookup"
 toc: true
 toc_label: "Contents"
 toc_icon: "cog"
-date: "2019-12-26"
 categories:
   - mongoDB
 tags:
