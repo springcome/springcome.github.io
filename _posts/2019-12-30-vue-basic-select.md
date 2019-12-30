@@ -1,5 +1,5 @@
 ---
-title: "Vue, <select />에 대한 사용"
+title: "Vue, select tag에 대한 사용"
 toc: true
 toc_label: "Contents"
 toc_icon: "cog"
@@ -13,7 +13,7 @@ tags:
 <strong>학습을 하면서 추가되는 내용은 지속적으로 업데이트 할 예정입니다.</strong>
 
 # :options
-> select box의 option항목을 binding합니다.
+> select box의 option항목을 적용합니다.
 보통 select box의 option항목은 for문을 사용하여 추가하여 사용했지만 아래와 같이 사용할수 있습니다.
 ```html
 <select
