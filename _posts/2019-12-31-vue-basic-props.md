@@ -1,5 +1,6 @@
 ---
 title: "Vue, props에 대한 사용"
+date: 2019-12-31 화요일 15:13:10
 toc: true
 toc_label: "Contents"
 toc_icon: "cog"
