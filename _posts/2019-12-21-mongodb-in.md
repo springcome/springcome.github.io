@@ -1,5 +1,6 @@
 ---
 title: "MongoDB"
+permalink: /mongoDB/
 toc: true
 toc_label: "Contents"
 toc_icon: "cog"
