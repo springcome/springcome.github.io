@@ -32,24 +32,20 @@ layout: default
           {% endif %}
         </header>
       {% endunless %}
-<!-- adSens 임시주석
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <div align="center" style="margin: 1em 0;">
-      <ins class="adsbygoogle"
-          style="display:block; border-bottom: initial;"
-          data-ad-client="ca-pub-5269324624660841"
-          data-ad-format="auto"></ins>
-      </div>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
--->
+
       <section class="page__content" itemprop="text">
-        {% if page.toc %}
+        {% if page.toc or page.toc_ads %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
             <nav class="toc">
+              {% if page.toc %}
               <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
               {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
+              {% endif %}
+            </nav>
+            <nav class="toc-custom">
+              {% if page.toc_ads %}
+                {% include GoogleAdSenseSidbar.html %}
+              {% endif %}
             </nav>
           </aside>
         {% endif %}
