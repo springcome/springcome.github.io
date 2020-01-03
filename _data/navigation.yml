@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "MongoDB"
-    url: /categories/mongoDB/
   - title: "Category"
     url: /categories/
   - title: "Tags"
