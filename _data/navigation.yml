@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Vue"
+    url: /categories/Vue/
   - title: "Category"
     url: /categories/
   - title: "Tags"
