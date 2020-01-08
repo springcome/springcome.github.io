@@ -13,7 +13,7 @@ tags:
 ---
 <img src="/assets/images/ide/atom/atom_log.png" />
 
-Atom에서 git-plus Package를 사용하여 Github 의 프로젝트를 clone하는 방법을 설명합니다.
+Atom에서 git-plus Package를 사용하여 Github 의 프로젝트를 `clone`하는 방법을 설명합니다.
 이미 Github에 생성된 프로젝트가 있다고 가정합니다.
 
 # git-plus Package 설치
