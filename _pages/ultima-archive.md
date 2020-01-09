@@ -1,6 +1,6 @@
 ---
 title: "Posts by Ultima Online"
-layout: default
+layout: single
 permalink: /ultima/
 author_profile: true
 ---
