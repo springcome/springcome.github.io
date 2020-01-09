@@ -17,3 +17,13 @@ String name = "aaa";
 Query query = new Query();
 query.addCriteria(Criteria.where("name").regex(name));
 ```
+```sql
+-- name like '%aa%'
+db.getCollection('collection').find(name:/aa/)
+
+-- name like 'aa%'
+db.getCollection('collection').find(name:/^aa/)
+
+-- name like '%aa'
+db.getCollection('collection').find(name:/aa$/)
+```
