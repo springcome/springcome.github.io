@@ -7,6 +7,7 @@ categories:
   - mongoDB
 tags:
   - mongodb setup
+  - windows10
 ---
 뒤늦게 mongoDB를 실무에서 사용하게 되어 집에서 설치해보려고 한다.
 
