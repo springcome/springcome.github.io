@@ -1,6 +1,7 @@
 ---
 title: "Atom, Github 프로젝트 연동 방법"
 date: 2020-01-07 화요일 09:56:10
+image: /assets/images/ide/atom/atom_log.png
 toc: true
 toc_label: "Contents"
 toc_icon: "cog"
