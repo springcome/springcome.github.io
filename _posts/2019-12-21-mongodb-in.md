@@ -11,6 +11,12 @@ tags:
   - in
 ---
 # $in
+```sql
+-- select * from user where name in ('a', 'b')
+-- 대소문자 구분해야함
+db.getCollection('user').find({name: {$in: ['a', 'b']}})
+```
 ```java
-db.getCollection('collection_name').find({ "search_field_name" : { $in : [ "search_value1", "search_value2" ] } })
+String [] names = {"a", "b"};
+new Query().addCriteria(Criteria.where("name").in(names));
 ```
