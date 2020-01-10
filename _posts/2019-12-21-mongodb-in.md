@@ -20,7 +20,3 @@ db.getCollection('user').find({name: {$in: ['a', 'b']}})
 String [] names = {"a", "b"};
 new Query().addCriteria(Criteria.where("name").in(names));
 ```
-<pre>
-String [] names = {"a", "b"};
-new Query().addCriteria(Criteria.where("name").in(names));
-</pre>
