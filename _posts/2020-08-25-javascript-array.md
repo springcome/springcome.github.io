@@ -23,6 +23,7 @@ tags:
 
 ## push(), 배열 항목 추가
 > arr.push(element1[, ...[, elementN]])
+
 ```javascript
     const members = [];
 
@@ -40,6 +41,7 @@ tags:
 
 ## pop(), 배열의 마지막 항목 제거
 > arr.pop()
+
 ```javascript
     const numArr = [1, 2, 3, 4, 5];
 
@@ -59,6 +61,7 @@ tags:
 
 ## shift(), 배열의 첫번째 항목 제거
 > arr.shift()
+
 ```javascript
     const numArr = [1, 2, 3, 4, 5];
     numArr.shift();
@@ -74,6 +77,7 @@ tags:
 
 ## unshift(), 배열의 첫번째에 항목 추가
 > arr.unshift(element1[, ...[, elementN]])
+
 ```javascript
     const numArr = [1, 2, 3];
     numArr.unshift(0);
@@ -89,6 +93,7 @@ tags:
 
 ## indexOf(), 배열 항목의 index찾기
 > indexOf(searchElement: T, fromIndex?: number): number;
+
 ```javascript
     // 찾는 값이 배열항목에 있으면 항목의 index리턴하고 없으면 -1을 리턴한다.
     const number = [1, 2, 3, 4, 5];
