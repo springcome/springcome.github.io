@@ -10,6 +10,7 @@ tags:
 >> Spring Boot Tools <br />
 >> Spring Initializr <br />
 >> Spring Boot Dashboard <br />
+<br />
 ## java.home path 설정
 ### path 설정 위치 (맥기준) <br />
 Code > Preferences > Settings 으로 이동해서 jdk를 겁색합니다. <br />
