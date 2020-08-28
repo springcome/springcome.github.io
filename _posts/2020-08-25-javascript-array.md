@@ -22,7 +22,7 @@ tags:
 ```
 <br />
 
-## push(), 배열 항목 추가
+# push(), 배열 항목 추가
 > arr.push(element1[, ...[, elementN]])
 
 ```javascript
@@ -40,7 +40,7 @@ tags:
 ```
 <br />
 
-## pop(), 배열의 마지막 항목 제거
+# pop(), 배열의 마지막 항목 제거
 > arr.pop()
 
 ```javascript
@@ -60,7 +60,7 @@ tags:
 ```
 <br />
 
-## shift(), 배열의 첫번째 항목 제거
+# shift(), 배열의 첫번째 항목 제거
 > arr.shift()
 
 ```javascript
@@ -76,7 +76,7 @@ tags:
 ```
 <br />
 
-## unshift(), 배열의 첫번째에 항목 추가
+# unshift(), 배열의 첫번째에 항목 추가
 > arr.unshift(element1[, ...[, elementN]])
 
 ```javascript
@@ -92,7 +92,7 @@ tags:
 ```
 <br />
 
-## indexOf(), 배열 항목의 index찾기
+# indexOf(), 배열 항목의 index찾기
 > indexOf(searchElement: T, fromIndex?: number): number;
 
 ```javascript
@@ -102,7 +102,7 @@ tags:
     const index2 = number.indexOf(6);   // -1
 ```
 
-## concat(), 배열 합치기
+# concat(), 배열 합치기
 > const new_array = old_array.concat([value1[, value2[, ...[, valueN]]]])
 
 ```javascript
