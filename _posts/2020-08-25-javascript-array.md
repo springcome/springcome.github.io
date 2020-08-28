@@ -8,6 +8,7 @@ tags:
     - shift()
     - unshift()
     - indexOf()
+    - concat()
 ---
 
 ## 배열생성
@@ -99,4 +100,23 @@ tags:
     const number = [1, 2, 3, 4, 5];
     const index1 = number.indexOf(4);   // 3
     const index2 = number.indexOf(6);   // -1
+```
+
+## concat(), 배열 합치기
+> const new_array = old_array.concat([value1[, value2[, ...[, valueN]]]])
+
+```javascript
+    const arr1 = ['a', 'b', 'c'];
+    const arr2 = ['d', 'e', 'f'];
+    const arr3 = [1, 2, 3];
+    const arr4 = ['z'];
+
+    const newArr1 = arr1.concat(arr2);
+    console.log(newArr1);                   // ['a', 'b', 'c', 'd', 'e', 'f']
+
+    const newArr2 = arr2.concat(arr3);
+    console.log(newArr2);                   // ['d', 'e', 'f', 1, 2, 3]
+
+    const newArr3 = arr4.concat(arr2, arr3);
+    console.log(newArr3);                   // ['z', 'd', 'e', 'f', 1, 2, 3]
 ```
