@@ -5,6 +5,9 @@ categories:
 tags:
     - linux
     - firewall
+toc: true
+toc_label: "Contents"
+toc_icon: "cog"
 ---
 # firewall-cmd 설치
 
