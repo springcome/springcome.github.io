@@ -38,7 +38,7 @@ github:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+# google_site_verification: google_meta_tag_verification # change to your verification string
 # --------------------------
 
 
@@ -49,16 +49,16 @@ baseurl: ''
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Shanghai
 
-google_analytics:
-  id: 'UA-69523371-2'          # Fill with your Google Analytics ID
-  pv:
-    # The Google Analytics pageviews switch.
-    # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
-    enabled: false
-    # the next options only valid when `google_analytics.pv` is enabled.
-    proxy_url: ''
-    proxy_endpoint: ''
-    cache: false  # pv data local cache, good for the users from GFW area.
+# google_analytics:
+#   id: 'UA-69523371-2'          # Fill with your Google Analytics ID
+#   pv:
+#     # The Google Analytics pageviews switch.
+#     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
+#     enabled: false
+#     # the next options only valid when `google_analytics.pv` is enabled.
+#     proxy_url: ''
+#     proxy_endpoint: ''
+#     cache: false  # pv data local cache, good for the users from GFW area.
 
 disqus:
   comments: false  # boolean type, the global switch for posts comments.
@@ -77,7 +77,7 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode: dark  # [light|dark]
 
 # The CDN endpoint for images.
 # After filling in, the image resource URL of posts and site avatar
