@@ -1,0 +1,17 @@
+# main links
+main:
+    - title: "Categories"
+      url: /categories/
+    - title: "Tags"
+      url: /tags/
+    - title: "Posts"
+      url: /year-archive/
+#    - title: "Pages"
+#      url: /page-archive/
+#    - title: "Sitemap"
+#      url: /sitemap/
+#    - title: "External Link"
+#      url: https://google.com
+#    - title: "Sample Collections"
+#      url: /collection-archive/
+ 
